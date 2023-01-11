@@ -1,0 +1,138 @@
+body {
+    height: 100%;
+}
+
+
+/* 导航栏 */
+.bigbox {
+    width: 100%;
+
+
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: rgb(34, 36, 26);
+}
+
+
+ul li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+    border: 1px solid #555;
+    float: left;
+}
+
+.button {
+    display: block;
+    padding: 14px 16px;
+    text-align: center;
+    text-decoration: none;
+    background-color: rgb(34, 36, 26);
+    color: rgb(255, 255, 255);
+
+}
+
+.button:hover {
+    background-color: rgb(97, 110, 121);
+}
+
+/* 中间内容 */
+
+/* 设置主要部分格式以及背景 */
+.image1 {
+    background-image: url("../pictures/书包.png");
+    /* background-repeat: y;
+    background-size: 100% 100%; */
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-size: 120px;
+    height: 100%;
+}
+
+/* 主要部分内容 */
+.main {
+    text-align: center;
+    background-color: rgba(75, 150, 150, 0.555);
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+/* 头像 */
+#touxiang {
+    border: 2px solid;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.ai {
+    color: rgb(153, 108, 87);
+}
+
+/* 主要部分2 */
+.image2 {
+    background-image: url("../pictures/袜子.png");
+    background-size: 150px;
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+
+.main2 {
+    text-align: center;
+    background-color: rgba(165, 119, 119, 0.5);
+    padding: 10px;
+
+}
+
+/* 主要部分3 */
+.main3 {
+    text-align: center;
+    background-color: rgba(165, 170, 89, 0.5);
+    padding: 10px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+
+}
+
+.titleword {
+    color: rgb(102, 102, 73);
+}
+
+.turtle {
+
+    border: rgb(85, 85, 85) solid;
+    border-radius: 3%;
+    width: 500px;
+    height: 300px;
+    margin: 50px;
+
+
+}
+
+
+
+.dcat {
+    border: rgb(85, 85, 85) solid;
+    border-radius: 3%;
+    width: 500px;
+    height: 300px;
+    margin: 50px;
+}
+
+/* 页脚 */
+.lastbox {
+    background-color: rgb(243, 225, 202);
+    text-align: center;
+
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.yejiao {
+    text-decoration-line: underline;
+}
